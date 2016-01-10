@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		4B8751E21B59083B0018AD87 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B8751E11B59083B0018AD87 /* main.cpp */; };
 		4B8751E41B59083B0018AD87 /* Board_Game.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4B8751E31B59083B0018AD87 /* Board_Game.1 */; };
+		4B8751EF1B5912B90018AD87 /* Pawn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B8751ED1B5912B90018AD87 /* Pawn.cpp */; };
+		4BB8E7681B5AA8B50098879A /* boardCube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BB8E7661B5AA8B50098879A /* boardCube.cpp */; };
+		4BB8E76B1B5AAC100098879A /* boardPlanar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BB8E7691B5AAC100098879A /* boardPlanar.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,12 @@
 		4B8751DE1B59083B0018AD87 /* Board Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Board Game"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B8751E11B59083B0018AD87 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4B8751E31B59083B0018AD87 /* Board_Game.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Board_Game.1; sourceTree = "<group>"; };
+		4B8751ED1B5912B90018AD87 /* Pawn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pawn.cpp; sourceTree = "<group>"; };
+		4B8751EE1B5912B90018AD87 /* Pawn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pawn.h; sourceTree = "<group>"; };
+		4BB8E7661B5AA8B50098879A /* boardCube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = boardCube.cpp; sourceTree = "<group>"; };
+		4BB8E7671B5AA8B50098879A /* boardCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = boardCube.h; sourceTree = "<group>"; };
+		4BB8E7691B5AAC100098879A /* boardPlanar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = boardPlanar.cpp; sourceTree = "<group>"; };
+		4BB8E76A1B5AAC100098879A /* boardPlanar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = boardPlanar.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				4B8751E11B59083B0018AD87 /* main.cpp */,
+				4BB8E7671B5AA8B50098879A /* boardCube.h */,
+				4BB8E7661B5AA8B50098879A /* boardCube.cpp */,
+				4BB8E76A1B5AAC100098879A /* boardPlanar.h */,
+				4BB8E7691B5AAC100098879A /* boardPlanar.cpp */,
+				4B8751EE1B5912B90018AD87 /* Pawn.h */,
+				4B8751ED1B5912B90018AD87 /* Pawn.cpp */,
 				4B8751E31B59083B0018AD87 /* Board_Game.1 */,
 			);
 			path = "Board Game";
@@ -118,6 +133,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B8751E21B59083B0018AD87 /* main.cpp in Sources */,
+				4B8751EF1B5912B90018AD87 /* Pawn.cpp in Sources */,
+				4BB8E7681B5AA8B50098879A /* boardCube.cpp in Sources */,
+				4BB8E76B1B5AAC100098879A /* boardPlanar.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +234,7 @@
 				4B8751E91B59083B0018AD87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
